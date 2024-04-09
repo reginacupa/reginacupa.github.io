@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.introducao {
+    max-width: 1200px;
+    padding: 20px 40px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+    position: relative;
+}
+
+.introducao h1 {
+    font-family: "Abril Fatface";
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 30px;
+   
+}
+
+.imgborboleta {
+    content: "";
+    display: block;
+    position: static;
+    max-width: 130px;   
+    position: absolute;
+    top: 121px;
+    right: 166px;
+    z-index: -1;
+}
+
+p {
+    font-family: "Abril Fatface";
+    font-weight: 500;
+    color: #525252;
+}
+
+@media (max-width: 1000px) {
+    .introducao h1 {
+        font-size: 3rem;
+    }
+    .imgborboleta {
+        max-width: 100px;
+        top: 95px;
+        right: 180px;
+    }
+}
+
+@media (max-width: 800px) {
+    .introducao {
+        max-width: 600px;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    } 
+    .introducao h1 {
+        font-size: 2.5rem;
+    }    
+    
+    .imgborboleta {
+        max-width: 70px;
+        top: 115px;
+        right: 10px;
+}
+}
+
+@media (max-width: 600px) {
+    .introducao {
+        max-width: 400px;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    } 
+    .introducao h1 {
+        font-size: 2.0rem;
+    }    
+    
+    .imgborboleta {
+        max-width: 70px;
+        top: 30px;
+        right: 8px;
+}
+}
+
+@media (max-width: 400px) {
+    .introducao {
+        font-size: 1rem;
+        grid-template-columns: 1fr;
+        align-items: center;
+    } 
+
+    .introducao img {
+        max-width: 200px;
+    }
+
+   
+
+    .imgborboleta {
+        max-width: 1px;
+        top: 262px;
+        right: 200px;
+}     
+}
+
+
+
+
