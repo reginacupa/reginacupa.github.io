@@ -38,6 +38,8 @@
     position: static;
     position: absolute;
     left: 620px;
+    align-items: center;
+    gap: 20px;
 }
 
 
