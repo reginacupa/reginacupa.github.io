@@ -21,20 +21,8 @@
    
 }
 
-.imgborboleta {
-    content: "";
-    display: block;
-    position: static;
-    max-width: 130px;   
-    position: absolute;
-    top: 99px;
-    left: 496px;
-    z-index: -1;
-    
-}
-
 p {
-    font-family: "Abril Fatface";
+    font-family: "Roboto";
     font-weight: 500;
     color: #525252;
 }
